@@ -83,9 +83,11 @@ where $$\bar{B}_i$$ is the mean intensity of the local background ring surroundi
 
 **Interpretation**
 
-	•	The numerator $$\sigma_i$$ represents intranuclear variability of GFP intensity — higher values indicate stronger spatial heterogeneity (e.g., speckles or puncta).
-	•	The denominator $$\mu_i^{\text{corr}}$$ normalizes this variability to the corrected mean brightness, producing a dimensionless ratio independent of absolute intensity.
-	•	Thus, $$\text{CV}_i$$ reflects the relative dispersion of signal within each nucleus and serves as a quantitative descriptor of texture or punctate patterning.
+The numerator $$\sigma_i$$ represents intranuclear variability of GFP intensity — higher values indicate stronger spatial heterogeneity (e.g., speckles or puncta).
+
+The denominator $$\mu_i^{\text{corr}}$$ normalizes this variability to the corrected mean brightness, producing a dimensionless ratio independent of absolute intensity.
+
+Thus, $$\text{CV}_i$$ reflects the relative dispersion of signal within each nucleus and serves as a quantitative descriptor of texture or punctate patterning.
 
 ⸻
 
