@@ -50,7 +50,7 @@ python ~/src/2_plot_EGFP_CV_raincloud_vertical.py
 **Definition**
 
 For each segmented nucleus $$\sigma_i$$, let
-$$\bar{I}i = \{ I_{i1}, I_{i2}, \dots, I_{in_i} \}$$
+$$\bar I_{i} = \{ I_{i1}, I_{i2}, \dots, I_{in_i} \}$$
 be the set of GFP pixel intensities within that nucleus.
 
 The coefficient of variation (CV) is defined as:
@@ -70,7 +70,7 @@ $$
 $$\bar{I}i$$ : mean GFP intensity inside the nucleus
 
 $$
-\bar{I}i = \frac{1}{n_i} \sum{j=1}^{n_i} I{ij}
+\bar I_{i}  = \frac{1}{n_i} \sum{j=1}^{n_i} I_{ij}
 $$
 
 $$\mu_i^{\text{corr}}$$ : background-corrected mean intensity
@@ -97,14 +97,14 @@ The full background-corrected coefficient of variation is:
 
 $$
 \boxed{
-\text{CV}i =
+\text CV_{i} =
 \frac{
 \sqrt{
 \dfrac{1}{n_i - 1}
 \sum{j=1}^{n_i} (I_{ij} - \bar{I}_i)^2
 }
 }{
-\max(\bar{I}_i - \bar{B}_i,, 0)
+\max(\bar{I}_i - \bar{B}_i, 0)
 }
 }
 $$
