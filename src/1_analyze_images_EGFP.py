@@ -5,6 +5,7 @@
 
 
 import os
+os.environ["PYTORCH_ENABLE_MPS_FALLBACK"] = "1"  # Allow CPU fallback for unsupported MPS ops (Apple Silicon)
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
